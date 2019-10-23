@@ -1,0 +1,4 @@
+INFO:root:Creation of 32 bit srec file: "D:/soft/SimplicityStudio/v4/developer/toolchains/gnu_arm/7.2_2017q4/bin/arm-none-eabi-objcopy" --srec-forceS3 -O srec "secSwitchCh3_HDv41.axf" "secSwitchCh3_HDv41.s37"
+INFO:root:Creation of gbl file: D:\soft\SimplicityStudio\v4\developer\adapter_packs\commander\commander.exe gbl create "secSwitchCh3_HDv41.gbl" --app "secSwitchCh3_HDv41.s37" --device EFR32MG13P732F512GM48
+INFO:root:Creation of ota file:  "D:/SiliconLabsWS_L/HD/secSwitchCh3_HDv41\..\..\..\soft\SimplicityStudio\v4\developer\sdks\gecko_sdk_suite\v2.6\protocol\zigbee\tool\image-builder\image-builder-windows.exe" --create "secSwitchCh3_HDv41.ota" --version 0x41 --manuf-id 0x1254 --image-type 0x0103 --tag-id 0x0000 --tag-file "secSwitchCh3_HDv41.gbl" --string "EBL secSwitchCh3_HDv41"
+INFO:root:OTA file has been created
